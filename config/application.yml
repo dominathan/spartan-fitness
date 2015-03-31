@@ -1,0 +1,49 @@
+# Add configuration values here, as shown below.
+#
+# pusher_app_id: "2954"
+# pusher_key: 7381a978f7dd7f9a1117
+# pusher_secret: abdc3b896a0ffb85d373
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+      development:
+        AWS_BUCKET: '~BUCKET_NAME~'
+        AWS_ACCESS_KEY_ID: ~AWS_ACCESS_KEY_ID~
+        AWS_SECRET_ACCESS_KEY: ~AWS_SECRET_ACCESS_KEY~
+        FB_KEY: '1087793171236608'
+        FB_SECRET: 'd69936ec978d039b7cb4885167d56c7a'
+        SPOTIFY_ID: 'e30b9d05b96f4401ad9a5871e3926522'
+        SPOTIFY_KEY: '9b17a02049894ac7867123109c4a0681'
+        GOOGLE_ID: '195632258175-btth07qb24lp16f9o37pft8oi3mtqj55.apps.googleusercontent.com'
+        GOOGLE_KEY: 'mI8DPRogIfU0goFPcNPfsmuE'
+        YUMMLY_KEY: '6adf5e5c633e5f39b9a839c5271edb82'
+        INSTAGRAM_ID: '4570582332aa4eb9b27c14180a53da38'
+        INSTAGRAM_SECRET: '56f002b57b70470eae97b6e4e9fd878b'
+        YELP_KEY: 'mcxKgSfxcgEcAS_Q_JzrkQ'
+        YELP_SECRET: 'S-Av0Zt1zfdEF-hoGuQqsHzhEVU'
+        YELP_TOKEN: '43yxNwmofDfW5d6YTCDITexr5ohv5aSn'
+        YELP_TOKEN_SECRET: '6Pzoi5sOkavPB0wLeZ2e-3is8aI'
+        TWITTER_KEY: 'FcfWHpqr401sbpRVCTdPk5lR5'
+        TWITTER_SECRET: 'j5CcToCYuYhOC8DS4fcDWBwJKyJBybMMieZ4D3RdwBrxmj8Xtu'
+      production:
+        AWS_BUCKET: '~BUCKET_NAME~'
+        AWS_ACCESS_KEY_ID: ~AWS_ACCESS_KEY_ID~
+        AWS_SECRET_ACCESS_KEY: ~AWS_SECRET_ACCESS_KEY~
+        FB_KEY: '1087793171236608'
+        FB_SECRET: 'd69936ec978d039b7cb4885167d56c7a'
+        SPOTIFY_ID: 'e30b9d05b96f4401ad9a5871e3926522'
+        SPOTIFY_KEY: '9b17a02049894ac7867123109c4a0681'
+        GOOGLE_ID: '195632258175-btth07qb24lp16f9o37pft8oi3mtqj55.apps.googleusercontent.com'
+        GOOGLE_KEY: 'mI8DPRogIfU0goFPcNPfsmuE'
+        YUMMLY_KEY: '6adf5e5c633e5f39b9a839c5271edb82'
+        INSTAGRAM_ID: '4570582332aa4eb9b27c14180a53da38'
+        INSTAGRAM_SECRET: '56f002b57b70470eae97b6e4e9fd878b'
+        YELP_KEY: 'mcxKgSfxcgEcAS_Q_JzrkQ'
+        YELP_SECRET: 'S-Av0Zt1zfdEF-hoGuQqsHzhEVU'
+        YELP_TOKEN: '43yxNwmofDfW5d6YTCDITexr5ohv5aSn'
+        YELP_TOKEN_SECRET: '6Pzoi5sOkavPB0wLeZ2e-3is8aI'
+        TWITTER_KEY: 'FcfWHpqr401sbpRVCTdPk5lR5'
+        TWITTER_SECRET: 'j5CcToCYuYhOC8DS4fcDWBwJKyJBybMMieZ4D3RdwBrxmj8Xtu'
