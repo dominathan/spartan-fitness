@@ -17,6 +17,11 @@ Rails.application.routes.draw do
       resources :posts do
       end
     end
+
+    resources :users do
+      resources :routines do
+      end
+    end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
