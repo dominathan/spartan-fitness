@@ -1,9 +1,22 @@
 Rails.application.routes.draw do
   root 'intro#index'
 
-  get "/auth/:provider/callback", to: "sessions#create"
-  get "/signout" => "sessions#destroy", as: 'signout'
+  post "/auth/:provider/callback", to: "sessions#create"
+  delete "/signout" => "sessions#destroy", as: 'signout'
   get 'auth/failure', to: redirect('/')
+    resources :users do
+      resources :workouts do
+      end
+    end
+    resources :users do
+      resources :meals do
+      end
+    end
+
+    resources :users do
+      resources :posts do
+      end
+    end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
