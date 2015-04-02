@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'intro#index'
 
-  post "/auth/:provider/callback", to: "sessions#create"
+  post "auth/:provider/callback", to: "sessions#create"
   delete "/signout" => "sessions#destroy", as: 'signout'
   get 'auth/failure', to: redirect('/')
     resources :users do
