@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'intro#index'
 
   post "auth/:provider/callback", to: "sessions#create"

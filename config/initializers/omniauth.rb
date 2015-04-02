@@ -9,11 +9,16 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     {
       :scope => "playlist-read-private, playlist-modify-public, playlist-modify-private"
     }
-  provider :google_oauth2, ENV["GOOGLE_ID"], ENV["GOOGLE_SECRET"], :provider_ignores_state => true
+  provider :google_oauth2, ENV["GOOGLE_ID"], ENV["GOOGLE_KEY"], :provider_ignores_state => true
     {
       :scope => "email, profile",
       :prompt => "select_account",
-      :image_aspect_ratio => "original"
+      :image_aspect_ratio => "original",
+      :response_type => "code",
+      :client_id => "GOOGLE_ID",
+      :approval_prompt => "auto",
+      :include_granted_scopes => "true",
+      :access_type => "online"
     }
   provider :twitter, ENV["TWITTER_KEY"], ENV["TWITTER_SECRET"], :provider_ignores_state => true
     {
