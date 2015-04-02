@@ -78,6 +78,7 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.5)
     erubis (2.7.0)
+    excon (0.44.2)
     execjs (2.4.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -110,6 +111,11 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mandrill-api (1.0.53)
+      excon (>= 0.16.0, < 1.0)
+      json (>= 1.7.7, < 2.0)
+    mandrill_dm (1.1.0)
+      mandrill-api (~> 1.0.51)
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
@@ -282,6 +288,7 @@ DEPENDENCIES
   instagram
   jbuilder (~> 2.0)
   jquery-rails
+  mandrill_dm
   mongoid (~> 4.0.2)
   moped (~> 2.0.0)
   oauth2 (~> 1.0.0)
