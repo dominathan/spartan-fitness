@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+#signup-container {
+  background: #222326;
+  position: relative;
+  width: 1280px;
+  height: 960px;
+}
+
+.email-field {
+  padding-top: 65px;
+  width: 300px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.password-field {
+  padding-top: 65px;
+  width: 300px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.password-confirmation {
+  padding-top: 65px;
+  width: 300px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-up-button {
+  padding-top: 65px;
+  width: 300px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

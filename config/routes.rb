@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
-  root 'intro#index'
+  root 'users#index'
 
-  post "auth/:provider/callback", to: "sessions#create"
-  delete "/signout" => "sessions#destroy", as: 'signout'
-  get 'auth/failure', to: redirect('/')
+  #post "auth/:provider/callback", to: "sessions#create"
+  #delete "/signout" => "sessions#destroy", as: 'signout'
+  #get 'auth/failure', to: redirect('/')
     resources :users do
       resources :workouts do
       end
