@@ -19,7 +19,7 @@ gem 'instagram'
 gem 'puma'
 gem 'devise'
 gem 'mandrill_dm'
-gem 'mongoid-paperclip', :require => "mongoid-paperclip"
+#gem 'mongoid-paperclip', :require => "mongoid-paperclip"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -30,7 +30,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'figaro'
 gem 'rails_12factor'
-gem 'aws-sdk', '~> 2.0.33'
+gem 'aws-sdk', '~> 2.0.33', :require => "aws-sdk"
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
